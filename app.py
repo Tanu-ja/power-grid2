@@ -37,7 +37,7 @@ def translate_text(text, target_language):
     engine="proddgpt4",
     messages = message_text,
     temperature=0,
-    max_tokens=800,
+    max_tokens=1700,
     top_p=0.95,
     frequency_penalty=0,
     presence_penalty=0,
@@ -71,7 +71,7 @@ def get_response():
 
     body = {
     "temperature": 0,
-    "max_tokens": 1000,
+    "max_tokens": 1700,
     "top_p": 1.0,
     "stream": False,
     "dataSources": [
